@@ -5,7 +5,7 @@
 | {ms:global.host/}       | 项目域名地址 http://localhost:15424/ms-mcms                  |
 | {ms:global.style/}      | 返回当前站点的模板名称  templets/1/company1804               |
 | {ms:global.name/}       | 网站title 数据库表app 的app_id =1 的 app_name                |
-| {ms:global.url/}        | 返回域名+静态文件                                            |
+| {ms:global.url/}        | 返回域名+静态文件 http://localhost:15424/ms-mcms/html/1      |
 | {ms:arclist typeid=193} | arclist -> 对应文章表 cms_content;</br>typeid=193 -> 对应 cms_content.content_category_id |
 |                         |                                                              |
 
@@ -29,7 +29,7 @@
 | ------------- | ------------------------------------------------------------ |
 | gdt.htm       | 下方滚动图片 模板                                            |
 | case-list.htm | 二级页面模板 , 生成二级页面 点 生成栏目 下拉框一般选顶级栏目 |
-| new-show.htm  | 三级页面模板                                                 |
+| new-show.htm  | 三级页面模板,                                                |
 |               |                                                              |
 
 
@@ -48,7 +48,7 @@
 ### 其他: 
 
 - HF2的图片 来自 文章管理 -> 首页幻灯 -> 短图
-
 - 生成文章的意思是 生成文章页面 用到的模板是new-show.htm 是三级页面 具体内容对应的是 表cms_content.content_details
-
-- 搜索 对应的是 cms_content.content_keyword
+- 信箱 生成 点 -> 生成栏目
+- 顺序 数字大的 优先
+- 195 是搜索详情页
